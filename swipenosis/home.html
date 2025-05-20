@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swipenosis</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <nav>
+        <a href="home.html">Home</a> | <a href="about.html">About Us</a>
+      </nav>
+    </header>
+    <main>
+      <div class="app-container">
+        <div id="card-container"></div>
+        <div class="buttons">
+          <button class="left" onclick="swipe('left')">Nope!</button>
+          <button class="right" onclick="swipe('right')">Yep!</button>
+        </div>
+        <button class="submit" onclick="submitSymptoms()">Submit</button>
+      </div>
+    </main>
+    <footer>
+      Created by Sneha Topno | snehatopno335@gmail.com
+    </footer>
+  </div>
+  <script src="home.js"></script>
+</body>
+</html>

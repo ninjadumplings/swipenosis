@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFF9F0;
+    font-family: Arial, sans-serif;
+}
+.app-container {
+    width: 320px;
+    height: 540px;
+    background: #D0E3FF; 
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    padding: 20px;
+    position: relative;
+}
+.card {
+    width: 90%;
+    min-height: 200px;
+    background: #D0E3FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    word-wrap: break-word;    
+    overflow-wrap: break-word;   
+    line-height: 1.4;
+}  
+.buttons {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.left { 
+    background: #334EAC; color: white; 
+}
+.right { 
+    background: #7096D1; color: white; 
+}
+.submit { 
+    background: #081F5C; color: white; margin-top: 20px; width: 100%; 
+}
+header {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.1rem;
+    background-color: #f0f4ff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}  
+header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 8px;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    background-color: #f0f4ff;
+    margin-top: 20px;
+    color: #666;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fef7ed;
+  }
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f0f4ff;
+    font-weight: 500;
+} 
+header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 8px;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f0f4ff;
+    color: #666;
+    font-size: 0.9rem;
+}
+    
+  
